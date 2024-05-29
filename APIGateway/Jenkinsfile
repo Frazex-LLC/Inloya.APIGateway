@@ -1,0 +1,187 @@
+import groovy.json.JsonSlurper
+
+def siteName = ""
+def appPoolName = ""
+def root = "C:\\inetpub\\wwwroot\\"
+def output = "" 
+def publish =  ""
+def currentBranch ="" 
+def apsettingsPath =""
+def projectName =  currentBuild.rawBuild.parent.definition.scriptPath.split('/')[0]
+
+pipeline {
+    agent any
+ 
+ 
+
+    stages {
+        stage('Checkout') {
+            steps {
+                script { 
+                   def scmInfo = checkout scm 
+                   currentBranch = scmInfo.GIT_BRANCH ?: scmInfo.BRANCH_NAME 
+                }
+            }
+        }
+    
+
+
+       stage('SetUp Apsettings') {
+            steps {
+                script {  
+
+                      println "Current Branch: ${currentBranch}" 
+
+                      println "Project Name: ${projectName}"
+
+                      println "Workspace: ${env.WORKSPACE}"
+
+                     if (currentBranch.contains('development')) {
+
+                        apsettingsPath =  env.WORKSPACE  + "\\" + projectName + "\\appsettings.Development.json" 
+
+                    } else if (currentBranch.contains('master')) { 
+
+                         apsettingsPath =  env.WORKSPACE  + "\\" + projectName + "\\appsettings.json" 
+                    }
+                          
+                 println apsettingsPath
+                }
+            }
+        }      
+
+    stage("Set up Environments") {
+            steps {
+                script {
+                  
+                    def csprojFile = new File("${env.WORKSPACE}\\\\${projectName}\\\\${projectName}.csproj")
+                    def csprojXml = new XmlSlurper().parse(csprojFile)
+
+                    def targetFramework = csprojXml.PropertyGroup.TargetFramework.text()
+                    println "Target Framework: $targetFramework"
+
+
+                    def jsonSlurper = new JsonSlurper()  
+                    def apsettings = jsonSlurper.parse(new File(apsettingsPath))
+
+                    siteName = apsettings.SiteName
+                    appPoolName = apsettings.AppPoolName
+
+                    println "Site Name: ${siteName}"
+                    println "App Pool Name: ${appPoolName}"
+                      
+                    output = "${root}${siteName}"
+
+                    publish = "${env.WORKSPACE}\\${projectName}\\bin\\Release\\${targetFramework}\\publish"
+                     
+                }
+            }
+        }
+
+         stage('Check and Create AppPool') {
+                steps {
+                    script {
+                        powershell """
+                        Import-Module WebAdministration
+
+                        # Ensure the physical path exists
+                        \$physicalPath = '${output}'
+                        if (-not (Test-Path -Path \$physicalPath)) {
+                            Write-Host "Creating directory at \$physicalPath"
+                            New-Item -Path \$physicalPath -Type Directory
+                        }
+
+                        # Check if the Application Pool exists
+                        if (-not (Test-Path IIS:\\AppPools\\${appPoolName})) {
+                            Write-Host "Creating Application Pool: ${appPoolName}"
+                            New-WebAppPool -Name "${appPoolName}"
+                        } else {
+                            Write-Host "Application Pool ${appPoolName} already exists."
+                        }
+
+                        # Check if the Site exists
+                        if (-not (Test-Path IIS:\\Sites\\${siteName})) {  
+                            New-Website -Name "${siteName}" -PhysicalPath \$physicalPath -ApplicationPool "${appPoolName}"
+                        } else {
+                            Write-Host "Site ${siteName} already exists."
+                        }
+                        """
+                    }
+                }
+            }
+         stage('Stop IIS App Pool and Site') {
+                steps {
+                    script {
+                        powershell "Stop-WebAppPool -Name '${appPoolName}'"
+                        powershell "Stop-WebSite -Name '${siteName}'"
+                    }
+                }
+            }
+
+
+        stage('Publish To Temp') {
+            steps {
+                script {
+                   bat "\"dotnet\" publish -c Release \"${env.WORKSPACE}\\${projectName}\\${projectName}.csproj\""
+                }
+            }
+        } 
+
+
+           stage('Backup') {
+            steps {
+                script {
+                    // Generate a target folder name with the current date and time
+                    def datetime = new Date().format('yyyy-MM-dd_HH-mm-ss')
+                    def backupFolder = "${root}\\backup\\${siteName}"
+                    def targetFolder = "${backupFolder}\\${datetime}"
+
+                    println "Backup Folder: ${backupFolder}"
+                    println "Target Folder: ${targetFolder}"
+
+                    // Create the target folder if it does not exist
+                    bat(script: "if not exist \"${targetFolder}\" mkdir \"${targetFolder}\"")
+
+                    // Define robocopy command to copy everything from source to target
+                    def robocopyCommand = "robocopy \"${publish}\" \"${targetFolder}\" /E /XD \"${publish}\\wwwroot\" /XF web.config"
+
+                    // Execute robocopy command
+                    def robocopyExitCode = bat(script: robocopyCommand, returnStatus: true)
+
+                    // Check robocopy exit code (values 0-7 are considered successful)
+                    if (robocopyExitCode > 7) {
+                        error "robocopy failed with exit code: ${robocopyExitCode}"
+                    }
+                }
+            }
+        } 
+
+
+    stage('Deploy') {
+        steps {
+            script {
+                def wwwrootExistsInOutput = bat(script: "if exist \"${output}\\wwwroot\" (exit 0) else (exit 1)", returnStatus: true) == 0
+    
+                // Exclude wwwroot directory if it exists and always exclude web.config file
+                def excludeOptions = "/XF web.config" + (wwwrootExistsInOutput ? " /XD \"${publish}\\wwwroot\"" : "")
+    
+                def robocopyExitCode = bat(script: "robocopy \"${publish}\" \"${output}\" /E ${excludeOptions}", returnStatus: true)
+    
+                if (robocopyExitCode > 7) {
+                    error "robocopy failed with exit code: ${robocopyExitCode}"
+                }
+            }
+        }
+    }
+    }
+     post {
+        always {
+            script {
+                powershell "Start-WebAppPool -Name '${appPoolName}'"
+                powershell "Start-WebSite -Name '${siteName}'"
+            }
+        }
+    }
+}
+
+ 
