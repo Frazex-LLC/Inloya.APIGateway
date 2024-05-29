@@ -9,14 +9,19 @@ namespace APIGateway
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            IWebHostEnvironment env = builder.Environment;
+
             // Add services to the container.
 
-            builder.Configuration.AddJsonFile("ocelot.json", optional: false, reloadOnChange: true);
+            if (env.IsDevelopment())
+                builder.Configuration.AddJsonFile("ocelot.json", optional: false, reloadOnChange: true);
+            else
+                builder.Configuration.AddJsonFile("ocelotProd.json", optional: false, reloadOnChange: true);
 
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-            builder.Services.AddOcelot();
+            builder.Services.AddOcelot(builder.Configuration);
 
             var app = builder.Build();
 
@@ -32,7 +37,7 @@ namespace APIGateway
 
             app.MapControllers();
 
-            app.UseOcelot();
+            app.UseOcelot().Wait();
 
             app.Run();
         }

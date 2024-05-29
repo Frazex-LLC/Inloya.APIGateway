@@ -5,8 +5,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Account/Login",
@@ -17,8 +17,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Balance/SaveCard/{lng}",
@@ -29,8 +29,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Balance/PayWithCard",
@@ -41,8 +41,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Balance/UpdateSavedCardAndReverseInitialAmount",
@@ -53,8 +53,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Balance/PaymentCards",
@@ -65,8 +65,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Balance/Delete",
@@ -77,8 +77,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Balance/BalancePrice",
@@ -89,8 +89,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Balance/BalanceStatistics",
@@ -101,8 +101,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Campaign",
@@ -113,8 +113,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Campaign/{partnerId}",
@@ -125,8 +125,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Campaign/{id}/{lng}",
@@ -137,8 +137,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Campaign/template/{id}/{lng}",
@@ -149,8 +149,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Campaign/{id}/{customerId}/{lng}",
@@ -161,8 +161,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Campaign/Template",
@@ -173,8 +173,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Campaign/Templates",
@@ -185,8 +185,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Client/Add",
@@ -197,8 +197,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Client/Update",
@@ -209,8 +209,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Client/Delete",
@@ -221,8 +221,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Client/Get",
@@ -233,8 +233,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Client/GetAll/{pageSize}/{pageIndex}",
@@ -245,8 +245,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Client/Profile/{customerId}",
@@ -257,8 +257,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Client/UploadExcel",
@@ -269,8 +269,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/ClientGroup/Add",
@@ -281,8 +281,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/ClientGroup/Update",
@@ -293,8 +293,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/ClientGroup/Delete/{id}",
@@ -305,8 +305,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/ClientGroup/DeleteFromGroup/{id}/{groupId}",
@@ -317,8 +317,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/ClientGroup/Get/{id}",
@@ -329,8 +329,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/ClientGroup/GetAll",
@@ -341,8 +341,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/ClientGroup/GetByGroupId",
@@ -353,8 +353,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Country",
@@ -365,8 +365,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Country/{id}",
@@ -377,8 +377,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/CustomerFilters/Customers",
@@ -389,8 +389,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/CustomerFilters/filters/{partnerId}/{lng}",
@@ -401,8 +401,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/EmailNotificationFileUploads",
@@ -413,8 +413,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Feedback/GetCustomerFeedbacks/{customerFeedbackId}",
@@ -425,8 +425,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Feedback/Add",
@@ -437,8 +437,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Feedback/Update",
@@ -449,8 +449,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Feedback/GetFeedbacks",
@@ -461,8 +461,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Feedback/GetFeedbackQuestion/{guid}",
@@ -473,8 +473,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Feedback/GetFeedbackClientQuestions/{guid}",
@@ -485,8 +485,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Feedback/AddCustomerFeedback",
@@ -497,8 +497,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Feedback/GetFeedbackStatistics/{feedbackId}",
@@ -509,8 +509,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Feedback/DeleteFeedback/{feedbackId}",
@@ -521,8 +521,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Feedback/SendPhoneNumber",
@@ -533,8 +533,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Feedback/ApprovePhoneNumber",
@@ -545,8 +545,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/FileUpload",
@@ -557,8 +557,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/FileUpload/tariff",
@@ -569,8 +569,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/LoyaltyCard/GetLoyaltyCardImage",
@@ -581,8 +581,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/LoyaltyCard/Get/{id}",
@@ -593,8 +593,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/LoyaltyCard/GetAll/{pageIndex}/{pageSize}",
@@ -605,8 +605,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/LoyaltyCard/Add",
@@ -617,8 +617,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/LoyaltyCard/Update",
@@ -629,8 +629,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/LoyaltyCard/EmptyCardList/{pageSize}/{pageIndex}",
@@ -641,8 +641,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/LoyaltyCard/EmptyLoyaltyCardImage/{cardId}",
@@ -653,8 +653,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/LoyaltyCard/GetCardGenerates",
@@ -665,8 +665,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/LoyaltyCard/DownloadZip/{generateId}",
@@ -677,8 +677,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/LoyaltyCard/UpdateLoyaltyCardGroup",
@@ -689,8 +689,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/LoyaltyGroup/LoyaltyGroup/{id}",
@@ -701,8 +701,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/LoyaltyGroup/LoyaltyGroups",
@@ -713,8 +713,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/LoyaltyGroup/Add",
@@ -725,8 +725,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/LoyaltyGroup/Update",
@@ -737,8 +737,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/LoyaltyGroup/Delete/{groupId}",
@@ -749,8 +749,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/LoyaltyType/LoyaltyType",
@@ -761,8 +761,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Marketing/List/{lng}",
@@ -773,8 +773,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Marketing/{lng}",
@@ -785,8 +785,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Marketing/Configuration/{id}/{lng}",
@@ -797,8 +797,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Marketing/Configuration",
@@ -809,8 +809,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Marketing/Status/{id}",
@@ -821,8 +821,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Marketing/Delete/{marketingPartnerId}",
@@ -833,8 +833,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Notification/test/{customerId}",
@@ -845,8 +845,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Notification/CustomerNotification",
@@ -857,8 +857,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Notification/DeleteCustomerNotification",
@@ -869,8 +869,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Notification/UpdateStatus/{customerId}",
@@ -881,8 +881,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Notification/{lng}",
@@ -893,8 +893,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Notification/{lng}/{partnerId}",
@@ -905,8 +905,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Notification/List",
@@ -917,8 +917,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Notification/Add",
@@ -929,8 +929,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Notification/UploadEmail",
@@ -941,8 +941,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Notification/Delete/{id}",
@@ -953,8 +953,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Notification/NotificationInfo/{id}",
@@ -965,8 +965,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Notification/NotificationEmailInfo/{id}",
@@ -977,8 +977,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Offers/{id}",
@@ -989,8 +989,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Offers/Delete/{id}",
@@ -1001,8 +1001,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Offers/Update",
@@ -1013,8 +1013,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Offers/Add",
@@ -1025,8 +1025,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Offers/{lng}/{pageIndex}/{pageSize}",
@@ -1037,8 +1037,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/PartnerConfiguration/EditPartnerConfigurationValue",
@@ -1049,8 +1049,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/PartnerConfiguration/AdminPartnerConfigurations",
@@ -1061,8 +1061,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/PartnerConfiguration/Settings",
@@ -1073,8 +1073,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/PromoCode/Search/{code}",
@@ -1085,8 +1085,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/PromoCode/Use/{code}",
@@ -1097,8 +1097,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/PromoCode/ListByCampaignId",
@@ -1109,8 +1109,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/PromoCode/Generate",
@@ -1121,8 +1121,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/PromoCode/GenerateCustom",
@@ -1133,8 +1133,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/PromoCode/ListByClientId",
@@ -1145,8 +1145,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/PromoCode/WithoutClientId/{campaignId}",
@@ -1157,8 +1157,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/PromoCode/GetCustomPromocodes",
@@ -1169,8 +1169,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/PromoCode/SearchFromClient/{code}",
@@ -1181,8 +1181,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/PromoCode/CampaignList",
@@ -1193,8 +1193,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/PromoCode/SendApproveCode/{clientId}",
@@ -1205,8 +1205,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/PromoCode/AttachPromocode",
@@ -1217,8 +1217,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/PromoCode/DownloadZip/{campaignId}",
@@ -1229,8 +1229,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Settings/anket-fields",
@@ -1241,8 +1241,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Settings/send-email",
@@ -1253,8 +1253,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Settings/change-password",
@@ -1265,8 +1265,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Statistics/all",
@@ -1277,8 +1277,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Statistics/detailed",
@@ -1289,8 +1289,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Statistics/main",
@@ -1301,8 +1301,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Statistics/export",
@@ -1313,8 +1313,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Transaction/env",
@@ -1325,8 +1325,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Transaction/GetLastTransactions",
@@ -1337,8 +1337,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Transaction/PanelTransaction",
@@ -1349,8 +1349,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Transaction",
@@ -1361,8 +1361,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Transaction/CancelTransaction",
@@ -1373,8 +1373,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/User",
@@ -1385,8 +1385,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/User/{branchId}",
@@ -1397,8 +1397,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/User/GetUser/{userId}",
@@ -1409,8 +1409,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/User/CreateUser",
@@ -1421,8 +1421,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/User/Update",
@@ -1433,8 +1433,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/User/DeleteUser",
@@ -1445,8 +1445,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/Version/{id}",
@@ -1457,8 +1457,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44363
+          "Host": "new.inloya.com",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/WalletCallback",
